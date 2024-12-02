@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+
 function Button({ value }) {
   return (
     <button
@@ -34,7 +35,9 @@ export default function LoginForm() {
     navigate("/dashboard");
   };
   return (
+
     <div className="bg-gray-200 flex justify-center items-center h-screen w-screen">
+    
       <div className=" border-t-8 rounded-sm border-black bg-white p-12 shadow-2xl w-96">
         <h1 className="font-bold text-center block text-2xl">Log In</h1>
         <form>

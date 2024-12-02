@@ -1,17 +1,163 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Lufga Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Regular'), url('assets/fonts/LufgaRegular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Italic'), url('assets/fonts/LufgaItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Thin'), url('assets/fonts/LufgaThin.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Thin Italic'), url('assets/fonts/LufgaThinItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga ExtraLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga ExtraLight'), url('assets/fonts/LufgaExtraLight.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga ExtraLight Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga ExtraLight Italic'), url('assets/fonts/LufgaExtraLightItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Light'), url('assets/fonts/LufgaLight.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Light Italic'), url('assets/fonts/LufgaLightItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Medium'), url('assets/fonts/LufgaMedium.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Medium Italic'), url('assets/fonts/LufgaMediumItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga SemiBold'), url('assets/fonts/LufgaSemiBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga SemiBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga SemiBold Italic'), url('assets/fonts/LufgaSemiBoldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Bold'), url('assets/fonts/LufgaBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Bold Italic'), url('assets/fonts/LufgaBoldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga ExtraBold'), url('assets/fonts/LufgaExtraBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga ExtraBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga ExtraBold Italic'), url('assets/fonts/LufgaExtraBoldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Black'), url('assets/fonts/LufgaBlack.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Lufga Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lufga Black Italic'), url('assets/fonts/LufgaBlackItalic.woff') format('woff');
+  }
+
+  :root {
+    --brand-gray: #d1d1d1;
+    --brand-light-gray: #ececec;
+    --brand-dark-gray: #bdbcbd;
+    --font-family: 'Lufga Regular', sans-serif;
+  }
+  
+
+body ,html{
+  
+    font-family: var(--font-family);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
