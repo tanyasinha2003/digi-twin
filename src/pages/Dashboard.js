@@ -205,7 +205,7 @@ export default function Dashboard() {
     datasets: [
       {
         data: [80, 20], // 70% used, 30% available
-        backgroundColor: ["#00adef", "#E0E0E0"], // Colors for each segment
+        backgroundColor: ["#39d469", "#E0E0E0"], // Colors for each segment
         hoverBackgroundColor: ["#2ba83d", "#B3B3B3"], // Hover colors
         borderWidth: 0,
         borderRadius: 20,
