@@ -20,7 +20,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 function Model(props) {
-  const { scene } = useGLTF("/cartoon_car.glb");
+  const { scene } = useGLTF("/car.glb");
   return <primitive object={scene} {...props} />;
 }
 
